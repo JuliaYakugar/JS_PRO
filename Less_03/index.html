@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 class="title">Товары</h1>
+    <button class="btn feedback_link">Просмотреть все отзывы</button>
+    <ul id="products"></ul>
+
+    <div class="overlay"></div>
+    <div class="modal">
+        <h2 class="modal__title">Отзыв</h2>
+        <div class="modal__info">
+            <label>Название продукта <br>
+                <input class="modal__input" type="text" id="name">
+            </label>   
+            <label>Отзыв<br>
+                <textarea class="modal__input" id="comment" ></textarea>
+            </label>
+        </div>
+        <button class="modal__btn btn">Отправить</button>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
